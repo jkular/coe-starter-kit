@@ -1047,8 +1047,11 @@ class DevOpsCommand {
                 let seviceConnection = ''
 
                 let validationName = typeof (args.settings["validation"] === "string") ? args.settings["validation"] : "yourenviromenthere-validation"
+                this.logger?.debug("ValidationName: ${validationName}")
                 let testName = typeof (args.settings["test"] === "string") ? args.settings["test"] : "yourenviromenthere-test"
+                this.logger?.debug("TestName: ${testName}")
                 let prodName = typeof (args.settings["prod"] === "string") ? args.settings["prod"] : "yourenviromenthere-prod"
+                this.logger?.debug("ProdName: ${prodName}")
 
                 switch (template?.toLowerCase()) {
                     case "validation": {

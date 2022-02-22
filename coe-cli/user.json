@@ -1,0 +1,15 @@
+{
+  "devOpsOrganization": "mikefactorial",
+  "project": "aa4pp-install-test",
+  "user": "melanie@mikefactorial.com",
+  "environment": "https://mikefactorialpowerops.crm.dynamics.com",
+  "group": "ALMAcceleratorForMakers",
+  "aad": "ALMAcceleratorServicePrincipal",
+  "endpoint": "prod",
+  "settings": {
+    "createSecret": "true",
+    "region": [
+      "NAM"
+    ]
+  }
+}
